@@ -15,6 +15,10 @@ func main() {
 	fmt.Println(test[2])
 	fmt.Println(test)
 
-	fmt.Printf("%#v\n", primes)
-	fmt.Printf("%#v\n", test)
+	i := 0
+	// for i < 6 {
+	for i < len(test) {
+		fmt.Println(test[i])
+		i++
+	}
 }
